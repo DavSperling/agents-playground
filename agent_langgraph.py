@@ -18,6 +18,7 @@ def get_time(city: str) -> str:
     """Get the time in a city"""
     return f"Il est 14h32 à {city}."
 
+
 # TODO 2 : instancie le modèle
 
 model = ChatOpenAI(model="gpt-4o-mini")
